@@ -1,0 +1,40 @@
+a{
+  cursor: pointer;
+}
+
+p{
+  text-align: justify;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+.card-video{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.card-video *{
+  cursor: pointer;
+}
+
+.card-video label{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background: rgba(0, 0, 0, .6);
+  text-align: center;
+  width: 100%;
+  padding: 10px 0px;
+  color: #fff;
+  margin: 0px;
+}
+
+.container{
+  margin-top: 20px;
+}
